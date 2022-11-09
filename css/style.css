@@ -14,6 +14,10 @@ UTILITY
     background-color: rgb(186, 132, 236);
 }
 
+.list {
+    display: none;
+}
+
 
 
 /* ******************************************
@@ -30,6 +34,22 @@ header .row {
     display: flex;
     justify-content: space-between;
 }
+
+ul {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  
+    
+
+}
+
+li {
+    list-style-type: none; 
+    justify-content: space-between;
+    margin: 0 10px;
+}
+ 
 
 /* ******************************************
 MAIN
@@ -100,6 +120,10 @@ MEDIA
         justify-content: center;
     }
 
+    .list {
+        display: none;
+    }
+
     .col-30{
         width: 30%;
         height: 70px;
@@ -127,4 +151,13 @@ MEDIA
     }
 }
 
-@media screen and (min-width:769px)
+@media screen and (min-width:993px){
+ 
+.hamburger{
+    display: none;
+}
+
+.list{
+    display: inline;
+}
+}
