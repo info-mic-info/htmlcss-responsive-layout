@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ******************************************
+UTILITY
+****************************************** */
+
+.bkg-violet{
+    background-color: rgb(186, 132, 236);
+}
+
+
+
+
+
+/* ******************************************
+HEADER
+****************************************** */
+
+header {
+    background-color: rgb(35, 111, 226);
+    height: 50px;
+}
+
+header .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ******************************************
+MAIN
+****************************************** */
+
+section .row{
+    margin: 0 Auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.col-60{
+    width: 80%;
+    background-color: rgb(135, 195, 241);
+    height: 200px;
+    margin: 5px;
+}
+
+.col-30{
+    width: 80%;
+    background-color: rgb(135, 195, 241);
+    height: 100px;
+    margin: 5px;
+}
+
+.col-50{
+    width: 80%;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+.title{
+    color: rgb(186, 132, 236);
+}
+
+.col-100{
+    width: 80%;
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+
+/* ******************************************
+FOOTER
+****************************************** */
+
+footer {
+    background-color: rgb(73, 69, 69);
+}
