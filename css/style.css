@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -18,30 +20,36 @@ UTILITY
     display: none;
 }
 
-
-
+.col-60, .col-30{
+    border-radius: 20px;
+}
 /* ******************************************
 HEADER
 ****************************************** */
 
 header {
     background-color: rgb(35, 111, 226);
-    height: 50px;
+    
 }
 
 header .row {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
 }
 
 ul {
     width: 100%;
     margin: 0 auto;
     display: flex;
-  
-    
-
 }
 
 li {
@@ -67,20 +75,27 @@ section .row{
 .col-60{
     width: 80%;
     background-color: rgb(135, 195, 241);
-    height: 200px;
     margin: 5px;
 }
 
 .col-30{
     width: 80%;
     background-color: rgb(135, 195, 241);
-    height: 100px;
     margin: 5px;
+}
+
+
+.content{
+    text-align: center;
+}
+
+.image img {
+    width: 50%;
+
 }
 
 .col-50{
     width: 80%;
-    height: 200px;
     background-color: whitesmoke;
     margin: 5px;
 }
@@ -126,12 +141,12 @@ MEDIA
 
     .col-30{
         width: 30%;
-        height: 70px;
+       
     }
 
     .col-60{
         width: 60%;
-        height: 70px
+        
     }
 
     .col-50{
