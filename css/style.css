@@ -23,6 +23,34 @@ UTILITY
 .col-60, .col-30{
     border-radius: 20px;
 }
+
+.button {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.button i {
+    padding-right: 10px;
+}
+
+.col-60 h2, p, a {
+    padding: 30px; 
+}
+
+a{
+text-decoration: none;
+}
+
+
+    
+
+.bkg-blue {
+    background-color: rgb(0, 123, 255);
+
+}
 /* ******************************************
 HEADER
 ****************************************** */
@@ -72,6 +100,15 @@ section .row{
     margin-top: 30px;
 }
 
+.first h2{
+    color: rgb(0, 123, 255);
+}
+
+.col-30 i {
+    font-size: 100px;
+    color: rgb(0, 123, 255);
+}
+
 .col-60{
     width: 80%;
     background-color: rgb(135, 195, 241);
@@ -88,6 +125,8 @@ section .row{
 .content{
     text-align: center;
 }
+
+
 
 .image img {
     width: 50%;
