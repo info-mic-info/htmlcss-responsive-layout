@@ -16,12 +16,28 @@ UTILITY
     color: white;
 }
 
+.txt-orange{
+    color: orange;
+}
+
+.txt-grey{
+    color: lightslategray;
+}
+
 .txt-black{
     color: black;
 }
 
+.txt-violet{
+    color: #9792e4;
+}
+
 .bkg-violet{
     background-color: #9792e4;
+}
+
+.bkg-white{
+    background-color: white;
 }
 
 .list {
@@ -59,6 +75,12 @@ text-decoration: none;
 h2{
     text-align: center;
 }
+
+.padding-30px{
+    padding: 30px;
+}
+
+
 /* ******************************************
 HEADER
 ****************************************** */
@@ -126,19 +148,21 @@ section .row{
 .col-60{
     width: 80%;
     background-color: rgb(135, 195, 241);
+    margin: 5px;
     
 }
 
 .col-30{
     width: 80%;
     background-color: rgb(135, 195, 241);
-    margin: 40px;
+    margin: 5px;
+   
 }
 
 
 .content{
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 
@@ -193,8 +217,6 @@ section .row{
     background-color: ;
 }
 
-.fourth 
-
 
 .title{
     color: rgb(186, 132, 236);
@@ -204,7 +226,28 @@ section .row{
 .col-100{
     width: 80%;
     height: 200px;
-    background-color: whitesmoke;
+    
+}
+
+
+.about-us img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.get-started span, h3, h4, h2, p, a {
+    text-align: center;
+}
+
+.col-100 a{
+    text-align: center;
+}
+
+.get-started a{
+    color: #9792e4;
+    text-align: center;
 }
 
 
@@ -216,6 +259,11 @@ footer {
     background-color: #333333;
 }
 
+footer .row{
+    margin: 0 auto;
+}
+
+
 
 
 
@@ -223,6 +271,8 @@ footer {
 MEDIA
 ****************************************** */
 
+
+/* Tablet */
 @media screen and (min-width:769px){
     section .row{
         width: 100%;
@@ -241,21 +291,31 @@ MEDIA
        
     }
 
+   
+
     .col-60{
         width: 60%;
-        
     }
 
     .col-50{
         width: 100%;
     }
 
+    .card {
+        display: flex;
+       
+    }
+
     .third .col-30{
         width: 100%;  
     }
 
+    .fourth .row{
+        width: 100%;
+    }
+
     .fourth .col-30{
-        width: 40%;
+        width: 50%;
     }
 
     .fourth .col-30{
@@ -263,6 +323,7 @@ MEDIA
     }
 }
 
+/* Desktop */
 @media screen and (min-width:993px){
  
 .hamburger{
@@ -270,6 +331,21 @@ MEDIA
 }
 
 .list{
-    display: inline;
+    display: block;
+}
+
+.fourth .col-30{
+    width: 30%;
+}
+
+
+.second .row{
+    display: flex;
+
+}
+
+.col-50{
+    width: 40%;
+    
 }
 }
