@@ -16,6 +16,10 @@ UTILITY
     color: white;
 }
 
+.txt-black{
+    color: black;
+}
+
 .bkg-violet{
     background-color: #9792e4;
 }
@@ -41,7 +45,7 @@ UTILITY
 }
 
 .col-60 h2, p, a {
-    padding: 30px; 
+    padding: 10px; 
 }
 
 a{
@@ -69,7 +73,7 @@ header .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 70px;
+    padding: 0 10px;
 }
 
 .logo img {
@@ -120,13 +124,13 @@ section .row{
 }
 
 .col-60{
-    max-width: 700px;
+    width: 80%;
     background-color: rgb(135, 195, 241);
     
 }
 
 .col-30{
-    max-width: 700px;
+    width: 80%;
     background-color: rgb(135, 195, 241);
     margin: 40px;
 }
@@ -134,13 +138,13 @@ section .row{
 
 .content{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 
 
 .image img {
-    width: 30%;
+    width: 50%;
 
 }
 
@@ -149,6 +153,18 @@ section .row{
     background-color: whitesmoke;
     margin: 5px;
 }
+
+
+.second .image {
+    width: 100%;
+}
+
+.second .col-50:last-child{
+    border-radius: 10%;
+    margin: 40px;
+}
+
+
 
 
 .third .col-30{
@@ -160,6 +176,15 @@ section .row{
     border-radius: 100%;
     object-fit: cover;
 }
+
+.third .imge {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
 .fourth .col-30{
     background-color: white;
 }
@@ -168,9 +193,12 @@ section .row{
     background-color: ;
 }
 
+.fourth 
+
 
 .title{
     color: rgb(186, 132, 236);
+    text-align: center;
 }
 
 .col-100{
