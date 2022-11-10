@@ -12,6 +12,10 @@
 UTILITY
 ****************************************** */
 
+.txt-white{
+    color: white;
+}
+
 .bkg-violet{
     background-color: #9792e4;
 }
@@ -143,17 +147,24 @@ section .row{
     margin: 5px;
 }
 
-.fourth .col-30{
-    background-color: white;
-}
 
+.third .col-30{
+    background-color: #9792e4;;
+}
 .third img{ 
     width: 200px;
     height: 200px;
     border-radius: 100%;
     object-fit: cover;
-
 }
+.fourth .col-30{
+    background-color: white;
+}
+
+.fourth .content{
+    background-color: ;
+}
+
 
 .title{
     color: rgb(186, 132, 236);
