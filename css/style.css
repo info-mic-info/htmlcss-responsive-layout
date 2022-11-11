@@ -12,6 +12,10 @@
 UTILITY
 ****************************************** */
 
+.padding-top-20px{
+    padding-top: 20px;
+}
+
 .txt-white{
     color: white;
 }
@@ -310,9 +314,7 @@ MEDIA
         width: 100%;  
     }
 
-    .fourth .row{
-        width: 100%;
-    }
+
 
     .fourth .col-30{
         width: 50%;
@@ -323,11 +325,27 @@ MEDIA
     }
 }
 
-/* Desktop */
+/* landdscape */
 @media screen and (min-width:993px){
  
+header .row{
+    margin: 0 auto;
+   
+    width: 80%;
+}
+
+
+
 .hamburger{
     display: none;
+}
+
+section .row{
+    width: 80%;
+}
+
+.fourt .row{
+    width: 80%;
 }
 
 .list{
@@ -349,3 +367,45 @@ MEDIA
     
 }
 }
+
+/* Desktop */
+
+@media screen and (min-width:1200px){
+ 
+    header .row{
+        margin: 0 auto;
+       
+        width: 80%;
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    
+    section .row{
+        width: 80%;
+    }
+    
+    .fourt .row{
+        width: 80%;
+    }
+    
+    .list{
+        display: block;
+    }
+    
+    .fourth .col-30{
+        width: 30%;
+    }
+    
+    
+    .second .row{
+        display: flex;
+    
+    }
+    
+    .col-50{
+        width: 40%;
+        
+    }
+    }
