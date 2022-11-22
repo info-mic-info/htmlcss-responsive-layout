@@ -12,31 +12,31 @@
 UTILITY
 ****************************************** */
 
-.txt-white{
+.txt-white {
     color: white;
 }
 
-.txt-orange{
+.txt-orange {
     color: orange;
 }
 
-.txt-grey{
+.txt-grey {
     color: lightslategray;
 }
 
-.txt-black{
+.txt-black {
     color: black;
 }
 
-.txt-violet{
+.txt-violet {
     color: #9792e4;
 }
 
-.bkg-violet{
+.bkg-violet {
     background-color: #9792e4;
 }
 
-.bkg-white{
+.bkg-white {
     background-color: white;
 }
 
@@ -44,7 +44,8 @@ UTILITY
     display: none;
 }
 
-.col-60, .col-30{
+.col-60,
+.col-30 {
     border-radius: 20px;
 }
 
@@ -60,23 +61,26 @@ UTILITY
     padding-right: 10px;
 }
 
-.col-60 h2, p, a {
-    padding: 10px; 
+.col-60 h2,
+p,
+a {
+    padding: 10px;
 }
 
-a{
-text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 .bkg-blue {
     background-color: #0084fd;
 
 }
-h2{
+
+h2 {
     text-align: center;
 }
 
-.padding-30px{
+.padding-30px {
     padding: 30px;
 }
 
@@ -87,7 +91,7 @@ HEADER
 
 header {
     background-color: #0084fd;
-    
+
 }
 
 header .row {
@@ -111,11 +115,11 @@ ul {
 }
 
 li {
-    list-style-type: none; 
+    list-style-type: none;
     justify-content: space-between;
     margin: 0 10px;
 }
- 
+
 
 /* ******************************************
 MAIN
@@ -127,16 +131,16 @@ p {
 
 
 
-section .row{
+section .row {
     margin: 0 Auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    padding: 30px;
 }
 
-.first h2{
+.first h2 {
     color: rgb(0, 123, 255);
 }
 
@@ -145,22 +149,25 @@ section .row{
     color: rgb(0, 123, 255);
 }
 
-.col-60{
+.col-60 {
     width: 80%;
     background-color: rgb(135, 195, 241);
     margin: 5px;
-    
+
 }
 
-.col-30{
+.col-30 {
     width: 80%;
     background-color: rgb(135, 195, 241);
     margin: 5px;
-   
+}
+
+.description .txt-white{
+    margin: 10px;
 }
 
 
-.content{
+.content {
     text-align: center;
     padding: 5px;
 }
@@ -172,7 +179,7 @@ section .row{
 
 }
 
-.col-50{
+.col-50 {
     max-width: 100%;
     background-color: whitesmoke;
     margin: 5px;
@@ -183,7 +190,7 @@ section .row{
     width: 100%;
 }
 
-.second .col-50:last-child{
+.second .col-50:last-child {
     border-radius: 10%;
     margin: 40px;
 }
@@ -191,10 +198,12 @@ section .row{
 
 
 
-.third .col-30{
-    background-color: #9792e4;;
+.third .col-30 {
+    background-color: #9792e4;
+    ;
 }
-.third img{ 
+
+.third img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -207,46 +216,64 @@ section .row{
 }
 
 
-
-
-.fourth .col-30{
-    background-color: white;
+.content .txt-violet {
+    margin: 10px 0;
 }
 
 .fourth .content{
-    background-color: ;
+    padding: 20px;
 }
 
 
-.title{
+.fourth .col-30 {
+    background-color: white;
+}
+
+
+
+
+.title {
     color: rgb(186, 132, 236);
     text-align: center;
 }
 
-.col-100{
+.col-100 {
     width: 80%;
-    height: 200px;
-    
+
 }
 
 
-.about-us img{
+.about-us img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
     object-fit: cover;
 }
 
-.get-started span, h3, h4, h2, p, a {
+.get-started span,
+h3,
+h4,
+h2,
+p  {
     text-align: center;
+    margin: 10px 0;
 }
 
-.col-100 a{
+.col-100 span {
     text-align: center;
+
 }
 
-.get-started a{
+.get-started a {
     color: #9792e4;
+}
+
+.get-started button{
+    text-align: center;
+
+}
+
+.bottone-centrale {
     text-align: center;
 }
 
@@ -259,8 +286,8 @@ footer {
     background-color: #333333;
 }
 
-footer .row{
-    margin: 0 auto;
+footer .row {
+    /* margin: 0 auto; */
 }
 
 
@@ -273,8 +300,8 @@ MEDIA
 
 
 /* Tablet */
-@media screen and (min-width:769px){
-    section .row{
+@media screen and (min-width:769px) {
+    section .row {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -286,122 +313,168 @@ MEDIA
         display: none;
     }
 
-    .col-30{
+    .col-30 {
         width: 30%;
-       
+
     }
 
-   
 
-    .col-60{
+
+    .col-60 {
         width: 60%;
     }
 
-    .col-50{
+    .col-50 {
         width: 100%;
     }
 
     .card {
         display: flex;
-       
+
     }
 
-    .third .col-30{
-        width: 100%;  
+    .third .col-30 {
+        width: 100%;
     }
 
 
 
-    .fourth .col-30{
+    .fourth .col-30 {
         width: 50%;
     }
 
-    .fourth .col-30{
+    .fourth .col-30 {
         width: 40%;
     }
+
+.first  .col-60 {
+    min-height: 500px;
+}
+
+.first  .col-30 {
+    min-height: 500px;
+}
+
+.third img {
+    padding: 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.description .txt-white {
+  text-align: start;
+}
+
+.description span {
+    padding: 10px;
+  }    
+
 }
 
 /* landdscape */
-@media screen and (min-width:993px){
- 
-header .row{
-    margin: 0 auto;
-   
-    width: 80%;
-}
+@media screen and (min-width:993px) {
+
+    header .row {
+        margin: 0 auto;
+
+        width: 80%;
+    }
 
 
 
-.hamburger{
-    display: none;
-}
+    .hamburger {
+        display: none;
+    }
 
-section .row{
-    width: 80%;
-}
+    section .row {
+        width: 80%;
+    }
 
-.fourt .row{
-    width: 80%;
-}
+    .fourt .row {
+        width: 80%;
+    }
 
-.list{
-    display: block;
-}
+    .list {
+        display: block;
+    }
 
-.fourth .col-30{
-    width: 30%;
-}
+    .fourth .col-30 {
+        width: 30%;
+    }
 
 
-.second .row{
-    display: flex;
+    .second .row {
+        display: flex;
 
-}
+    }
 
-.col-50{
-    width: 40%;
-    
-}
+    .col-50 {
+        width: 40%;
+    }
 }
 
 /* Desktop */
 
-@media screen and (min-width:1200px){
- 
-    header .row{
+@media screen and (min-width:1200px) {
+
+    header .row {
         margin: 0 auto;
-       
+
         width: 80%;
     }
-    
-    .hamburger{
+
+    .hamburger {
         display: none;
     }
-    
-    section .row{
+
+    section .row {
         width: 80%;
     }
-    
-    .fourt .row{
+
+    .fourt .row {
         width: 80%;
     }
-    
-    .list{
+
+    .list {
         display: block;
     }
-    
-    .fourth .col-30{
+
+    .fourth .col-30 {
         width: 30%;
     }
-    
-    
-    .second .row{
+
+
+    .second .row {
         display: flex;
-    
+
     }
-    
-    .col-50{
+
+    .col-50 {
         width: 40%;
-        
     }
+
+    .third img {
+        padding: 20px;
     }
+
+    
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .description .txt-white {
+      text-align: start;
+    }
+
+    .description span {
+        padding: 10px;
+      }    
+}
