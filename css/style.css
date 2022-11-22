@@ -140,6 +140,10 @@ section .row {
     padding: 30px;
 }
 
+.first img{
+    margin-top: 20px;
+}
+
 .first h2 {
     color: rgb(0, 123, 255);
 }
@@ -169,7 +173,7 @@ section .row {
 
 .content {
     text-align: center;
-    padding: 5px;
+    padding: 20px;
 }
 
 
@@ -436,6 +440,8 @@ MEDIA
         width: 80%;
     }
 
+.first 
+
     .fourt .row {
         width: 80%;
     }
@@ -449,9 +455,14 @@ MEDIA
     }
 
 
+.rotate-phone{
+    display: flex;
+}
+
+
+
     .second .row {
         display: flex;
-
     }
 
     .col-50 {
@@ -477,4 +488,12 @@ MEDIA
     .description span {
         padding: 10px;
       }    
+
+      .first  .col-60 {
+        max-height: 300px;
+    }
+    
+    .first  .col-30 {
+        max-height: 300px;
+    }
 }
